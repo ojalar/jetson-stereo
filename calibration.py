@@ -9,7 +9,7 @@ import argparse
 # rdir (str): path to directory of calibration images of right camera
 # savedir (str): path to directory of saved calibration results
 # sq_size (float): dimension of checkerboard square side (in metres)
-# bd_size (int, int): dimensions of the checkerboard, as in (width, height) of squares
+# bd_size (int, int): dimensions of the checkerboard, as in (width, height) of square corners
 def calibrate(ldir, rdir, savedir, sq_size, bd_size):    
     # generate real-word coordinates for square corners
     sq_points = np.zeros((1, bd_size[0] * bd_size[1], 3), np.float32)
