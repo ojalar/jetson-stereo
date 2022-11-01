@@ -21,5 +21,5 @@ python3 calibration.py -l <path/to/left/images/> -r <path/to/right/images/> -s <
 ### Extract depth
 With saved camera parameters, extract depth information from test image pair
 ```
-python3 calibration.py -p <path/to/parameter/directory/> -l <path/to/left/image> -r <path/to/right/image>
+python3 depth.py -p <path/to/parameter/directory/> -l <path/to/left/image> -r <path/to/right/image>
 ```
