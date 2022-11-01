@@ -16,7 +16,7 @@ Place calibration data in separate folders.
 Measure the physical size of squares (in m), and check the size of the board (as in number of square corners, width x height).
 Only square corners count.
 ```
-python3 calibration.py -l <path/to/left/images/> -r <path/to/right/images> -s <path/to/parameter/save/directory/> -sq <square size, in m> -bd <board size, widthxheight>
+python3 calibration.py -l <path/to/left/images/> -r <path/to/right/images/> -s <path/to/parameter/save/directory/> -sq <square size, in m> -bd <board size, width x height>
 ```
 ### Extract depth
 With saved camera parameters, extract depth information from test image pair
