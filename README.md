@@ -14,7 +14,7 @@ Press 'c' to capture frames, press 'q' to quit.
 ### Calibration
 Place calibration data in separate folders.
 Measure the physical size of squares (in m), and check the size of the board (as in number of square corners, width x height).
-Only square corners count.
+Only inner square corners count.
 ```
 python3 calibration.py -l <path/to/left/images/> -r <path/to/right/images/> -s <path/to/parameter/save/directory/> -sq <square size, in m> -bd <board size, width x height>
 ```
